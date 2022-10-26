@@ -1,11 +1,15 @@
 spack:
+
   view: false
+
   concretizer:
     unify: false
     reuse: false
+
   packages:
     all:
       target: [x86_64]
+
   specs:
   - bacio@2.4.1
   - bison@3.8.2
