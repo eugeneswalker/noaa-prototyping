@@ -1,0 +1,1114 @@
+==> Starting concretization pool with 16 processes
+==> Environment concretized in 32.81 seconds.
+==> Concretized bacio@2.4.1
+[+]  dzgqzne  bacio@2.4.1%nvhpc@22.9~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized bison@3.8.2
+[+]  dayceb6  bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx      ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u          ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw      ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb          ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk      ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc          ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e          ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4          ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2              ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                  ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                      ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes          ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+
+==> Concretized crtm@2.3.0
+[+]  rb2aq7m  crtm@2.3.0%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized ecbuild@3.6.5
+[+]  gatbtkp  ecbuild@3.6.5%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized eccodes@2.25.0
+[+]  fjnhoz2  eccodes@2.25.0%nvhpc@22.9~aec~fortran~ipo~memfs~netcdf~openmp~png~pthreads~python+shared~tools build_type=RelWithDebInfo definitions=auto jp2k=openjpeg samples=auto arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  rmttfup      ^openjpeg@2.3.1%nvhpc@22.9~codec~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+
+==> Concretized eigen@3.4.0
+[+]  jhefbpb  eigen@3.4.0%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized esmf@8.3.0b09+pio
+[+]  ocygj5y  esmf@8.3.0b09%nvhpc@22.9~debug~external-lapack+mpi+netcdf~parallelio+pio+pnetcdf+xerces arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u          ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3          ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw          ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes          ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  snnjqpm      ^netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th          ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg              ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2                  ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                      ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                          ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                          ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                              ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                              ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                                  ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                              ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                                  ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                                      ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  fzce762                  ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi                      ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                          ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei                  ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer                      ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp                      ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5                      ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  did42de                      ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye                  ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk                  ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7              ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau                  ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                      ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                          ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                              ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                                  ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                          ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw                  ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj                  ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                      ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                          ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                      ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy                  ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                      ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+[+]  26kf6vr      ^netcdf-fortran@4.5.4%nvhpc@22.9~doc+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  2ejwaq7      ^parallel-netcdf@1.12.3%nvhpc@22.9~burstbuffer+cxx+fortran+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  zw2f4p4      ^xerces-c@3.2.3%nvhpc@22.9 cxxstd=default netaccessor=curl transcoder=gnuiconv arch=linux-ubuntu20.04-x86_64
+
+==> Concretized flex@2.6.4
+[+]  6fgqk7t  flex@2.6.4%nvhpc@22.9+lex~nls patches=f8b85a0 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw          ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx              ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                  ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb              ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk          ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc              ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e              ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4              ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                  ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                      ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                          ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes              ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6      ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  kcllyqm      ^findutils@4.9.0%nvhpc@22.9 patches=440b954 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u      ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq          ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb          ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o              ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  dzplk7t      ^help2man@1.47.16%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b      ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized fms@2022.01
+ -   kz6vilm  fms@2022.01%nvhpc@22.9+64bit+gfs_phys~ipo+openmp+quad_precision~yaml build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  snnjqpm      ^netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th          ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7              ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau                  ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                      ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                          ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                              ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                                  ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                          ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw                  ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj                  ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                      ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                          ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                      ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy                  ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                      ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+[+]  26kf6vr      ^netcdf-fortran@4.5.4%nvhpc@22.9~doc+pic+shared arch=linux-ubuntu20.04-x86_64
+
+==> Concretized fms@2022.03
+ -   ziyl56p  fms@2022.03%nvhpc@22.9+64bit~fpic+gfs_phys~ipo+openmp+quad_precision~yaml build_type=RelWithDebInfo constants=GFDL arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  snnjqpm      ^netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th          ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7              ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau                  ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                      ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                          ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                              ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                                  ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                          ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw                  ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj                  ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                      ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                          ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                      ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy                  ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                      ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+[+]  26kf6vr      ^netcdf-fortran@4.5.4%nvhpc@22.9~doc+pic+shared arch=linux-ubuntu20.04-x86_64
+
+==> Concretized fms@2022.04
+ -   h3xu3am  fms@2022.04%nvhpc@22.9+64bit~fpic+gfs_phys~ipo+openmp+quad_precision~yaml build_type=RelWithDebInfo constants=GFDL arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  snnjqpm      ^netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th          ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7              ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau                  ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                      ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                          ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                              ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                                  ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                          ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw                  ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj                  ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                      ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                          ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                      ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy                  ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                      ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+[+]  26kf6vr      ^netcdf-fortran@4.5.4%nvhpc@22.9~doc+pic+shared arch=linux-ubuntu20.04-x86_64
+
+==> Concretized g2@3.4.5
+[+]  eah5aza  g2@3.4.5%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  hhnh4fe      ^jasper@1.900.1%gcc@11.1.0+jpeg~opengl+shared build_type=Release patches=db10440 arch=linux-ubuntu20.04-x86_64
+[+]  jw2l2w7          ^libjpeg-turbo@2.1.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w2muxe2              ^nasm@2.15.05%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  4gstvna      ^libpng@1.6.37%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized g2tmpl@1.10.0
+[+]  uw5e57h  g2tmpl@1.10.0%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized hdf@4.2.15
+[+]  i3cvecb  hdf@4.2.15%nvhpc@22.9+external-xdr~fortran~java~netcdf+pic~shared~szip patches=49733dd,5434f29,ce75518,d54592d,f7d67e8 arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6      ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw          ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb              ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk          ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc              ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e              ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4              ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                  ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                      ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                          ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes              ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  rwiiaij      ^flex@2.6.3%nvhpc@22.9+lex~nls arch=linux-ubuntu20.04-x86_64
+[+]  kcllyqm          ^findutils@4.9.0%nvhpc@22.9 patches=440b954 arch=linux-ubuntu20.04-x86_64
+[+]  efjmdw5      ^libjpeg@9e%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  cpwi6xx      ^libtirpc@1.2.6%nvhpc@22.9 patches=d087e44 arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg          ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u              ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                  ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                      ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                  ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                      ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized hdf5@1.12.1
+[+]  uefgbhg  hdf5@1.12.1%nvhpc@22.9~cxx~fortran~hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo patches=ee351eb arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7      ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau          ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6              ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                  ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                      ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                          ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                  ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq              ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw          ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz              ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h              ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj          ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg              ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                  ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                  ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                      ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                          ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7              ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy          ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben              ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+
+==> Concretized ip@3.3.3
+[+]  57rlzdr  ip@3.3.3%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  33sbz5r      ^sp@2.3.3%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+
+==> Concretized jasper@2.0.32
+[+]  j3vooje  jasper@2.0.32%gcc@11.1.0+jpeg~opengl+shared build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  jw2l2w7      ^libjpeg-turbo@2.1.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w2muxe2          ^nasm@2.15.05%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized libpng@1.6.37
+[+]  4gstvna  libpng@1.6.37%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+
+==> Concretized libyaml@0.2.5
+[+]  b7cesbf  libyaml@0.2.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized nccmp@1.9.0.1
+[+]  oi32lu7  nccmp@1.9.0.1%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  snnjqpm      ^netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th          ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7              ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau                  ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                      ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                          ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                              ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                                  ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                          ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw                  ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj                  ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                      ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                          ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                      ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy                  ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                      ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+
+==> Concretized netcdf-c@4.8.1
+[+]  snnjqpm  netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th      ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg          ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2              ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                  ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                      ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                      ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                          ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                          ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                              ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                                  ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                          ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                              ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                                  ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                      ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                          ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762              ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi                  ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                      ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei              ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer                  ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp                  ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5                  ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                  ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de                  ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye              ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk              ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7          ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau              ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                  ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                      ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                          ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                              ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                      ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                  ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw              ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                  ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                  ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj              ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                  ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                      ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                      ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                          ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                              ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                  ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy              ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                  ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+
+==> Concretized netcdf-fortran@4.5.4
+[+]  26kf6vr  netcdf-fortran@4.5.4%nvhpc@22.9~doc+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  snnjqpm      ^netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th          ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg              ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2                  ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                      ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                          ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                          ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                              ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                              ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                                  ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                                      ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                              ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                                  ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                                      ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                          ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                              ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762                  ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi                      ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                          ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei                  ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer                      ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp                      ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5                      ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                      ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de                      ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye                  ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk                  ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7              ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau                  ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                      ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                          ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                              ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                                  ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                          ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw                  ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj                  ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                      ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                          ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                      ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy                  ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                      ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+
+==> Concretized nlohmann-json-schema-validator@2.1.0
+[+]  qj6wjx6  nlohmann-json-schema-validator@2.1.0%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  kulxrtk      ^nlohmann-json@3.11.2%nvhpc@22.9~ipo+multiple_headers build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+
+==> Concretized nlohmann-json@3.10.5
+[+]  7rjao3p  nlohmann-json@3.10.5%nvhpc@22.9~ipo+multiple_headers build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized parallel-netcdf@1.12.2
+[+]  t65qrnr  parallel-netcdf@1.12.2%nvhpc@22.9~burstbuffer+cxx+fortran+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw      ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb          ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7      ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau          ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6              ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                  ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                  ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq              ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                  ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                  ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw          ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz              ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h              ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj          ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg              ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                  ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                  ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                      ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                          ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                  ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                      ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7              ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy          ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben              ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+
+==> Concretized parallelio@2.5.4
+[+]  yrl3wrg  parallelio@2_5_4%nvhpc@22.9+fortran~ipo~logging~pnetcdf~timing build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+[+]  snnjqpm      ^netcdf-c@4.8.1%nvhpc@22.9~dap~fsync~hdf4~jna+mpi~parallel-netcdf+pic+shared patches=de556da arch=linux-ubuntu20.04-x86_64
+[+]  2fs35th          ^hdf5@1.12.2%nvhpc@22.9~cxx~fortran+hl~ipo~java+mpi+shared~szip~threadsafe+tools api=default build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  y7bbie7              ^openmpi@4.1.4%nvhpc@22.9~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java~legacylaunchers~lustre~memchecker+romio+rsh~singularity+static+vt+wrapper-rpath fabrics=none schedulers=none arch=linux-ubuntu20.04-x86_64
+[+]  owo7cau                  ^hwloc@2.8.0%nvhpc@22.9~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  t26pwz6                      ^libpciaccess@0.16%nvhpc@22.9 patches=6e08dc4 arch=linux-ubuntu20.04-x86_64
+[+]  w3cne4b                          ^libtool@2.4.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  2csxaaw                              ^m4@1.4.19%nvhpc@22.9+sigsegv patches=6985830,72bb1ad,9dc5fbd,bfdffa7 arch=linux-ubuntu20.04-x86_64
+[+]  thlphjb                                  ^libsigsegv@2.13%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  uchyxll                          ^util-macros@1.19.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  mpiafpw                  ^numactl@2.0.14%nvhpc@22.9 patches=4e1d78c,62fc8a8,ff37630 arch=linux-ubuntu20.04-x86_64
+[+]  xrch2nz                      ^autoconf@2.69%nvhpc@22.9 patches=35c4492,7793209,a49dd5b arch=linux-ubuntu20.04-x86_64
+[+]  fuwxy2h                      ^automake@1.16.5%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  jq7hmtj                  ^openssh@9.0p1%nvhpc@22.9+gssapi arch=linux-ubuntu20.04-x86_64
+[+]  ljfngeg                      ^krb5@1.19.3%nvhpc@22.9+shared arch=linux-ubuntu20.04-x86_64
+[+]  dayceb6                          ^bison@3.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yu6lnl7                      ^libedit@3.1-20210216%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  vel2ouy                  ^pmix@4.1.2%nvhpc@22.9~docs+pmi_backwards_compatibility~restful arch=linux-ubuntu20.04-x86_64
+[+]  uxhvben                      ^libevent@2.1.12%nvhpc@22.9+openssl arch=linux-ubuntu20.04-x86_64
+[+]  26kf6vr      ^netcdf-fortran@4.5.4%nvhpc@22.9~doc+pic+shared arch=linux-ubuntu20.04-x86_64
+
+==> Concretized py-numpy@1.22.3
+ -   r6oeca3  py-numpy@1.22.3%nvhpc@22.9+blas+lapack patches=873745d,e9508c3 arch=linux-ubuntu20.04-x86_64
+[+]  4x4qq4k      ^openblas@0.3.21%nvhpc@22.9~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk          ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc              ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e              ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                  ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                      ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4              ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                  ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                      ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                          ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes              ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+ -   iqbnqhl      ^py-cython@0.29.32%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  eu7b5xr          ^py-pip@22.2.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  nvrvb4j              ^python@3.9.15%gcc@11.1.0+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+[+]  fzce762                  ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi                      ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                          ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                  ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                          ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                      ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                          ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  5qtg5wc                  ^libffi@3.4.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                  ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                      ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  iwp2mlq                  ^sqlite@3.39.4%nvhpc@22.9+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+[+]  ylzbrfh                  ^util-linux-uuid@2.38.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  qqmtykk          ^py-setuptools@59.4.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yqmttfp          ^py-wheel@0.37.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized py-pandas@1.4.0
+ -   ngui7kk  py-pandas@1.4.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   oloqlea      ^py-bottleneck@1.3.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   bwnog5f          ^py-numpy@1.22.4%nvhpc@22.9+blas+lapack patches=873745d arch=linux-ubuntu20.04-x86_64
+[+]  4x4qq4k              ^openblas@0.3.21%nvhpc@22.9~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+ -   iqbnqhl              ^py-cython@0.29.32%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  eu7b5xr                  ^py-pip@22.2.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  nvrvb4j                      ^python@3.9.15%gcc@11.1.0+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+[+]  fzce762                          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi                              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                          ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                              ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                                  ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                              ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                                  ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  5qtg5wc                          ^libffi@3.4.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                          ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                              ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  iwp2mlq                          ^sqlite@3.39.4%nvhpc@22.9+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+[+]  ylzbrfh                          ^util-linux-uuid@2.38.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  qqmtykk                  ^py-setuptools@59.4.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yqmttfp                  ^py-wheel@0.37.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   cfho4ws      ^py-numexpr@2.7.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  432qoxp      ^py-python-dateutil@2.8.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  fogeksk          ^py-setuptools-scm@6.0.1%nvhpc@22.9+toml arch=linux-ubuntu20.04-x86_64
+[+]  rgmljoq              ^py-toml@0.10.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  zoprlpq          ^py-six@1.16.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  zhx5b7x      ^py-pytz@2022.2.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized py-scipy@1.8.0
+ -   w3paxhz  py-scipy@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  4x4qq4k      ^openblas@0.3.21%nvhpc@22.9~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk          ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc              ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e              ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                  ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                      ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4              ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                  ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                      ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                          ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes              ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+ -   iqbnqhl      ^py-cython@0.29.32%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  eu7b5xr          ^py-pip@22.2.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  nvrvb4j              ^python@3.9.15%gcc@11.1.0+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+[+]  fzce762                  ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi                      ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                          ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                  ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                          ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                      ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                          ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  5qtg5wc                  ^libffi@3.4.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                  ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                      ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  iwp2mlq                  ^sqlite@3.39.4%nvhpc@22.9+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+[+]  ylzbrfh                  ^util-linux-uuid@2.38.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  qqmtykk          ^py-setuptools@59.4.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yqmttfp          ^py-wheel@0.37.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   urbjod6      ^py-numpy@1.23.4%nvhpc@22.9+blas+lapack patches=873745d arch=linux-ubuntu20.04-x86_64
+ -   3gjrvvx      ^py-pybind11@2.8.1%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg          ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2              ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei              ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer                  ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp                  ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5                  ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  did42de                  ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye              ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk              ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+ -   tu3xsjk          ^ninja@1.11.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   g4kiufk      ^py-pythran@0.11.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  p5sdama          ^py-beniget@0.4.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  biek7qw              ^py-gast@0.5.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  bnuiqal          ^py-ply@3.11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized py-shapely@1.8.0
+ -   acktkaq  py-shapely@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   moll6h3      ^geos@3.9.1%nvhpc@22.9~ipo build_type=RelWithDebInfo patches=ab78db7 arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg          ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2              ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc                  ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                      ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                      ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                          ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                          ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                              ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                                  ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                          ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                              ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                                  ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                      ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                          ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762              ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi                  ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                      ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei              ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer                  ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp                  ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5                  ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw                  ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de                  ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye              ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk              ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+ -   tu3xsjk          ^ninja@1.11.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  nvrvb4j              ^python@3.9.15%gcc@11.1.0+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib patches=0d98e93,4c24573,f2fd060 arch=linux-ubuntu20.04-x86_64
+[+]  xffjm3u                  ^gettext@0.21.1%nvhpc@22.9+bzip2+curses+git~libunistring+libxml2+tar+xz patches=6e530da,fb27a3f arch=linux-ubuntu20.04-x86_64
+[+]  hsf47lq                      ^libxml2@2.10.1%nvhpc@22.9~python arch=linux-ubuntu20.04-x86_64
+[+]  vtwqjnb                      ^tar@1.30%nvhpc@22.9 patches=4e8cdf6 zip=pigz arch=linux-ubuntu20.04-x86_64
+[+]  ocqfy2o                          ^pigz@2.7%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  5qtg5wc                  ^libffi@3.4.2%gcc@11.1.0 arch=linux-ubuntu20.04-x86_64
+[+]  iwp2mlq                  ^sqlite@3.39.4%nvhpc@22.9+column_metadata+dynamic_extensions+fts~functions+rtree arch=linux-ubuntu20.04-x86_64
+[+]  ylzbrfh                  ^util-linux-uuid@2.38.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   iqbnqhl      ^py-cython@0.29.32%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  eu7b5xr          ^py-pip@22.2.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  qqmtykk          ^py-setuptools@59.4.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  yqmttfp          ^py-wheel@0.37.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+ -   urbjod6      ^py-numpy@1.23.4%nvhpc@22.9+blas+lapack patches=873745d arch=linux-ubuntu20.04-x86_64
+[+]  4x4qq4k          ^openblas@0.3.21%nvhpc@22.9~bignuma~consistent_fpcsr+fortran~ilp64+locking+pic+shared patches=d3d9b15 symbol_suffix=none threads=none arch=linux-ubuntu20.04-x86_64
+
+==> Concretized sp@2.3.3
+[+]  33sbz5r  sp@2.3.3%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized udunits@2.2.28
+[+]  7utajkq  udunits@2.2.28%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  fzce762      ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi          ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm              ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+
+==> Concretized w3nco@2.4.1
+[+]  qxwiro7  w3nco@2.4.1%nvhpc@22.9~ipo build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
+[+]  n4sbrbg      ^cmake@3.24.2%nvhpc@22.9~doc+ncurses~ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
+[+]  5o4j3v2          ^curl@7.85.0%nvhpc@22.9~gssapi~ldap~libidn2~librtmp~libssh~libssh2~nghttp2 libs=shared,static tls=openssl arch=linux-ubuntu20.04-x86_64
+[+]  mg4pngc              ^openssl@1.1.1q%nvhpc@22.9~docs~shared certs=mozilla patches=3fdcf2d arch=linux-ubuntu20.04-x86_64
+[+]  mig2oee                  ^ca-certificates-mozilla@2022-10-11%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  q7evhnk                  ^perl@5.34.1%nvhpc@22.9+cpanm+shared+threads patches=75c90f1 arch=linux-ubuntu20.04-x86_64
+[+]  eu2o6jc                      ^berkeley-db@18.1.40%nvhpc@22.9+cxx~docs+stl patches=26090f4,b231fcc arch=linux-ubuntu20.04-x86_64
+[+]  ofhuh5e                      ^bzip2@1.0.8%nvhpc@22.9~debug~pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  vndicfx                          ^diffutils@3.7%nvhpc@22.9 patches=6e42dc2 arch=linux-ubuntu20.04-x86_64
+[+]  4gm4r3u                              ^libiconv@1.16%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  oqwdou4                      ^gdbm@1.19%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  he6lop2                          ^readline@8.1.2%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  pikli5b                              ^ncurses@6.3%nvhpc@22.9~symlinks+termlib abi=none arch=linux-ubuntu20.04-x86_64
+[+]  eufn4i3                                  ^pkgconf@1.8.0%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  k6jhdes                      ^zlib@1.2.13%nvhpc@22.9+optimize+pic+shared arch=linux-ubuntu20.04-x86_64
+[+]  fzce762          ^expat@2.4.8%nvhpc@22.9+libbsd arch=linux-ubuntu20.04-x86_64
+[+]  5dpgjzi              ^libbsd@0.11.3%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  wuojbwm                  ^libmd@1.0.4%nvhpc@22.9 patches=991953c arch=linux-ubuntu20.04-x86_64
+[+]  wjqceei          ^libarchive@3.5.2%nvhpc@22.9+iconv compression=bz2lib,lz4,lzma,lzo2,zlib,zstd crypto=mbedtls libs=shared,static programs=none xar=expat arch=linux-ubuntu20.04-x86_64
+[+]  x4aseer              ^lz4@1.9.4%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  n6xk2bp              ^lzo@2.10%nvhpc@22.9 libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  fpmrsb5              ^mbedtls@2.28.0%nvhpc@22.9+pic build_type=Release libs=static arch=linux-ubuntu20.04-x86_64
+[+]  5u5h3pw              ^xz@5.2.5%nvhpc@22.9~pic libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  did42de              ^zstd@1.5.2%nvhpc@22.9~programs libs=shared,static arch=linux-ubuntu20.04-x86_64
+[+]  gzyyfye          ^libuv@1.44.1%nvhpc@22.9 arch=linux-ubuntu20.04-x86_64
+[+]  w632axk          ^rhash@1.4.2%nvhpc@22.9 patches=093518c,3fbfe46 arch=linux-ubuntu20.04-x86_64
+
+==> Concretized zlib@1.2.12
+[+]  hmj6ae6  zlib@1.2.12%nvhpc@22.9+optimize+pic+shared patches=0d38234 arch=linux-ubuntu20.04-x86_64
+
