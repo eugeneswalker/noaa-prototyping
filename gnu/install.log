@@ -1,0 +1,137 @@
+==> Installing environment /noaa-prototyping/gnu
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/pkgconf-1.8.0-6kp4r3oyomrpcltx7dzvhezuzhn3y2pg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/ca-certificates-mozilla-2022-10-11-xf6hrsaatuwqvq4ie6a3zpcs5hspqik5
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/berkeley-db-18.1.40-fzp4srcwrkvrkz3pjijposjz2fs4jj2w
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libiconv-1.16-nxnzjytuy6fbmlzb4tbzuacyagck7hiz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/zlib-1.2.13-56esifwcjlagujjl44jhgjvtxj2xxrpi
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libsigsegv-2.13-u7hwsy26oddibxcoewjupicf54yy2tdz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/util-macros-1.19.3-5ihrf5ig746betlg4jl2e3oenjepwszs
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/xz-5.2.5-humadv75uga4ohrevf6756k5ybdfp5zz
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/zstd-1.5.2-x3a2d4re2hfordqogi4lf6jcn5atzl6v
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/ncurses-6.3-i2hv5jcfp6vaydwc7s6tbdq4lmy5ab6v
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/diffutils-3.8-6id7p5g7oj64suxauqjif5cldkbyuram
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/pigz-2.7-4pkn3bgnpvsqodmizhprgbxb3xyulc5w
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libxml2-2.10.1-a3ccp3bgkssumysebwd7v4sf7pnbycbr
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/readline-8.1.2-tfambxvyzgh44fsjfljvw4eiryqfllay
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libedit-3.1-20210216-e6v25lmeaybesxhjvustqbwfy5ixde6t
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/m4-1.4.19-acee3tgs6hcbinjguuscarrkn7efnvn4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/bzip2-1.0.8-3gilvnwrzghzcbkmuhcnnmiixzqre6us
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/gdbm-1.19-u3nqjvsvav3jcdj7tyea4atmlku2i6cb
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libtool-2.4.7-tqvtjqszx777v5zym3nbcft4ichrz7oo
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/tar-1.34-lugpi74qvldeuhiagitwsqyw3qccbfnk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/perl-5.34.1-pnr53pawuhy5s3aeqpgfsybsiltnoyqj
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libpciaccess-0.16-dch343zp6cgxxm3jjuhb7eh27sejgiqj
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/gettext-0.21.1-2dz2xxccbeyadhybtnd3izc2qkqaq33j
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/bison-3.8.2-7iryfkfqcve4pifgtg6g5wiiy3uslazx
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/openssl-1.1.1q-6iusyoihmvc3dwykkbrvv25z7qt3qhp4
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/autoconf-2.69-x6byn4loermzgcuqnklqvqznkoaljf2d
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/hwloc-2.8.0-mdm5rmcueti2ji2frve65k64rgdjfvem
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/cmake-3.24.2-vfgkleihjfox4gwozyiks6t7mvjv2n75
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/libevent-2.1.12-47rzcnwpwxlipjtcqngz6rbow7tnqtzs
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/krb5-1.19.3-kxyqlxbidisatzundnst2u6rbiiqwdev
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/automake-1.16.5-3fydo2icjzofriaytbkv57glk2nxq7ja
+==> Installing w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at
+==> No binary for w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at found: installing from source
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/48/48b06e0ea21d3d0fd5d5c4e7eb50b081402567c1bff6c4abf4fd4f3669070139.tar.gz
+==> No patches needed for w3nco
+==> w3nco: Executing phase: 'cmake'
+==> w3nco: Executing phase: 'build'
+==> Error: ProcessError: Command exited with status 2:
+    'make' '-j16'
+
+5 errors found in build log:
+     426    Please include the complete backtrace with any bug report.
+     427    See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+     428    [ 45%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/putgbex.f.o
+     429    [ 45%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/putgb.f.o
+     430    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_4 -c /tmp/root/spack-stage/spack-stage
+            -w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/putgbex.f -o CMakeFiles/w3nco_4_f.dir/putgbex.f.o
+     431    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_4 -c /tmp/root/spack-stage/spack-stage
+            -w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/putgb.f -o CMakeFiles/w3nco_4_f.dir/putgb.f.o
+  >> 432    make[2]: *** [src/CMakeFiles/w3nco_d_f.dir/build.make:793: src/CMakeFiles/w3nco_d_f.dir/w3ai00.f.o] Error 1
+     433    make[2]: *** Waiting for unfinished jobs....
+     434    [ 46%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/iw3unp29.f.o
+     435    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8
+             -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/iw3unp29.f -o CMakeFiles/w3nco_8_f.dir/iw3unp29.f.o
+     436    [ 47%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/putgbn.f.o
+     437    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_4 -c /tmp/root/spack-stage/spack-stage
+            -w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/putgbn.f -o CMakeFiles/w3nco_4_f.dir/putgbn.f.o
+     438    [ 47%] Building Fortran object src/CMakeFiles/w3nco_4_f.dir/r63w72.f.o
+
+     ...
+
+     554    0x11f3c23 expand_expr_real_2(separate_ops*, rtx_def*, machine_mode, expand_modifier)
+     555    	???:0
+     556    Please submit a full bug report,
+     557    with preprocessed source if appropriate.
+     558    Please include the complete backtrace with any bug report.
+     559    See <file:///usr/share/doc/gcc-11/README.Bugs> for instructions.
+  >> 560    make[2]: *** [src/CMakeFiles/w3nco_4_f.dir/build.make:793: src/CMakeFiles/w3nco_4_f.dir/w3ai00.f.o] Error 1
+     561    make[2]: *** Waiting for unfinished jobs....
+     562    [ 59%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3aq15.f.o
+     563    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8
+             -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/w3aq15.f -o CMakeFiles/w3nco_8_f.dir/w3aq15.f.o
+     564    [ 59%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3as00.f.o
+     565    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8
+             -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/w3as00.f -o CMakeFiles/w3nco_8_f.dir/w3as00.f.o
+     566    [ 60%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/w3difdat.f.o
+
+     ...
+
+     647    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8
+             -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/w3ymdh4.f -o CMakeFiles/w3nco_8_f.dir/w3ymdh4.f.o
+     648    [ 72%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/xmovex.f.o
+     649    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8
+             -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/xmovex.f -o CMakeFiles/w3nco_8_f.dir/xmovex.f.o
+     650    [ 72%] Building Fortran object src/CMakeFiles/w3nco_8_f.dir/xstore.f.o
+     651    cd /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m/src && /spack/lib/spack/env/gcc/gfortran -DLINUX  -ggdb 
+            -fno-range-check -fbacktrace -funroll-loops  -w -fallow-argument-mismatch -fallow-invalid-boz -O2 -g -DNDEBUG -Jinclude_8 -fdefault-integer-8 -fdefault-real-8
+             -c /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-src/src/xstore.f -o CMakeFiles/w3nco_8_f.dir/xstore.f.o
+     652    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m'
+  >> 653    make[1]: *** [CMakeFiles/Makefile2:275: src/CMakeFiles/w3nco_d_f.dir/all] Error 2
+     654    make[1]: *** Waiting for unfinished jobs....
+     655    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m'
+     656    [ 72%] Built target w3nco_8_f
+     657    make[2]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m'
+  >> 658    make[1]: *** [CMakeFiles/Makefile2:117: src/CMakeFiles/w3nco_4_f.dir/all] Error 2
+     659    make[1]: Leaving directory '/tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-th7d76m'
+  >> 660    make: *** [Makefile:139: all] Error 2
+
+See build log for details:
+  /tmp/root/spack-stage/spack-stage-w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at/spack-build-out.txt
+
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/pmix-4.1.2-7t7p5ewxmhoptv72za3i4f5krps2evxk
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/openssh-9.0p1-mjcb6hvydozlqvzpl62ykvmcco2guhi2
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/numactl-2.0.14-sa55wbyzbltwu622q5yxfqediqqsjzxg
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/openmpi-4.1.4-tb4tllxehurkuhnhgyv232nmek54ywca
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/hdf5-1.12.2-nw4w5dowlsdj7rq2dnhne4wzmiuc35yh
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/netcdf-c-4.8.1-6mvmp3gd3koa2cgepzy6d5fktp4aqd7j
+[+] /spack/opt/spack/linux-ubuntu20.04-x86_64/gcc-11.1.0/netcdf-fortran-4.5.4-syxjjxr3ui36ui7b5ax6g7bd23ieamgq
+==> Installing parallelio-2_5_4-efn43ljy3cvehqjhjbl7lwp5lyhvoyme
+==> No binary for parallelio-2_5_4-efn43ljy3cvehqjhjbl7lwp5lyhvoyme found: installing from source
+1 out of 2 hunks FAILED -- saving rejects to file CMakeLists.txt.rej
+==> Using cached archive: /spack/var/spack/cache/_source-cache/archive/e5/e51dc71683da808a714deddc1a80c2650ce847110383e42f1710f3ba567e7a65.tar.gz
+==> Using cached archive: /spack/var/spack/cache/_source-cache/git//PARALLELIO/genf90.git/genf90_200608.tar.gz
+==> Moving resource stage
+	source: /tmp/root/spack-stage/resource-genf90-efn43ljy3cvehqjhjbl7lwp5lyhvoyme/spack-src/
+	destination: /tmp/root/spack-stage/spack-stage-parallelio-2_5_4-efn43ljy3cvehqjhjbl7lwp5lyhvoyme/spack-src/genf90
+==> Patch /spack/var/spack/repos/builtin/packages/parallelio/gfortran.patch failed.
+==> Warning: Fetching from mirror without a checksum!
+  This package is normally checked out from a version control system, but it has been archived on a spack mirror.  This means we cannot know a checksum for the tarball in advance. Be sure that your connection to this mirror is secure!
+==> Error: ProcessError: Command exited with status 1:
+    '/usr/bin/patch' '-s' '-p' '1' '-i' '/spack/var/spack/repos/builtin/packages/parallelio/gfortran.patch' '-d' '.'
+==> Error: w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at: ProcessError: Command exited with status 2:
+    'make' '-j16'
+==> Error: parallelio-2_5_4-efn43ljy3cvehqjhjbl7lwp5lyhvoyme: ProcessError: Command exited with status 1:
+    '/usr/bin/patch' '-s' '-p' '1' '-i' '/spack/var/spack/repos/builtin/packages/parallelio/gfortran.patch' '-d' '.'
+==> Error: parallelio-2_5_4-efn43ljy3cvehqjhjbl7lwp5lyhvoyme: Package was not installed
+==> Error: w3nco-2.4.1-th7d76mx2ejp75gojiicekyz66ixx6at: Package was not installed
+==> Error: Installation request failed.  Refer to reported errors for failing package(s).

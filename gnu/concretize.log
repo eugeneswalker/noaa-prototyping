@@ -1,5 +1,5 @@
 ==> Starting concretization pool with 16 processes
-==> Environment concretized in 31.69 seconds.
+==> Environment concretized in 30.25 seconds.
 ==> Concretized bacio@2.4.1
 [+]  gvogtp6  bacio@2.4.1%gcc@11.1.0~ipo+pic build_type=RelWithDebInfo arch=linux-ubuntu20.04-x86_64
 [+]  vfgklei      ^cmake@3.24.2%gcc@11.1.0~doc+ncurses+ownlibs~qt build_type=Release arch=linux-ubuntu20.04-x86_64
